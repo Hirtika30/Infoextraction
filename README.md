@@ -5,20 +5,29 @@ This Python script implements training of Hidden Markov Models (HMMs) for speech
 
 ## System Features
 •	Feature Extraction: Processes speech signals to extract spectral features.
+
 •	HMM Definition: Constructs Hidden Markov Models for individual letters and silence.
+
 •	Word Composition: Forms words by concatenating letter HMMs and integrates silence models.
+
 •	Recognition: Uses trained HMMs to recognize words in speech data.
+
 •	Accuracy Evaluation: Measures and reports the recognition accuracy of the system.
 
 ## Data Files
 •	clsp.lblnames: Label names for quantized outputs.
+
 •	clsp.trnscr: Script read by speakers, containing examples of each word.
+
 •	clsp.trnlbls: Label strings for each spoken word.
+
 •	clsp.endpts: Leading and trailing silence information for each word.
+
 •	clsp.devlbls: Test set label strings.
 
 ## Prerequisites
 •	Python 3.x
+
 •	NumPy library
 
 ## Usage
@@ -33,9 +42,12 @@ This Python script implements training of Hidden Markov Models (HMMs) for speech
 
 ## Documentation
 •	Extensive documentation is provided within the source code, detailing the required files and command-line usage for both training and testing modules.
+
 •	A report is also provided displaying the output with the explanation of the source code.
 
 ## Notes
 •	The script assumes a specific file structure and naming conventions for the training data files. Modify the file paths if necessary.
+
 •	The code includes various debugging statements and checks to ensure the correctness of the implementation.
+
 •	Discussed the project with Janvi Prasad and Darshil Shah.
